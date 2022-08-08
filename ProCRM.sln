@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{855229C7-7963-49F2-9370-67C7E7709365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProCRM.Ldi.Api", "ProCRM.Ldi.Api", "{0243CDE4-CD1D-49F6-B429-7759D1D869A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProCrm.Ldi.Api", "Microservices\ProCrm.Ldi.Api\ProCrm.Ldi.Api\ProCrm.Ldi.Api.csproj", "{28995BA9-7666-4D68-A682-5B28925BB7F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC5DA5CB-BD2D-40FB-95F8-95E9692ED9E8} = {AC5DA5CB-BD2D-40FB-95F8-95E9692ED9E8}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D6E298BE-000A-415B-BB48-0109BBFCECD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProCRM.Core", "Core\ProCRM.Core\ProCRM.Core.csproj", "{AC5DA5CB-BD2D-40FB-95F8-95E9692ED9E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28995BA9-7666-4D68-A682-5B28925BB7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28995BA9-7666-4D68-A682-5B28925BB7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28995BA9-7666-4D68-A682-5B28925BB7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28995BA9-7666-4D68-A682-5B28925BB7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5DA5CB-BD2D-40FB-95F8-95E9692ED9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5DA5CB-BD2D-40FB-95F8-95E9692ED9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5DA5CB-BD2D-40FB-95F8-95E9692ED9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5DA5CB-BD2D-40FB-95F8-95E9692ED9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0243CDE4-CD1D-49F6-B429-7759D1D869A5} = {855229C7-7963-49F2-9370-67C7E7709365}
+		{28995BA9-7666-4D68-A682-5B28925BB7F2} = {0243CDE4-CD1D-49F6-B429-7759D1D869A5}
+		{AC5DA5CB-BD2D-40FB-95F8-95E9692ED9E8} = {D6E298BE-000A-415B-BB48-0109BBFCECD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DC69E92-9BDC-40E1-B244-B85512F3CC70}
+	EndGlobalSection
+EndGlobal
